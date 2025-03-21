@@ -1,4 +1,4 @@
-# hitung luas segitiga sederhana
+# Hitung luas segitiga sederhana
 def luas_segitiga():
     a = int(input("Masukkan alas segitiga: "))
     t = int(input("Masukkan tinggi segitiga: "))
@@ -6,3 +6,12 @@ def luas_segitiga():
     print("Luas segitiga adalah: ", luas)
     
 luas_segitiga()
+
+# Hitung luas persegi panjang
+def luas_persegi_panjang():
+    p = int(input("Masukkan panjang persegi: "))
+    l = int(input("Masukkan lebar persegi panjang: "))
+    luas = p * l
+    print("Luas persegi panjang adalah: ", luas)
+    
+luas_persegi_panjang()
